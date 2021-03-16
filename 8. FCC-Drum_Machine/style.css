@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
+body {
+    background-color: rgb(51, 41, 41);
+}
+
+#drum-machine {
+    background: rgba(127, 235, 175, 0.726);
+    margin: 3rem;
+    padding: 1rem;
+    border: 0.5rem solid #000;
+}
+
+.container {
+    display: grid;
+    grid-gap: 0.5rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+        'Q W E'
+        'A S D'
+        'Z X C';
+    margin-top: 3rem;
+}
+
+.drum-pad {
+    border: 0.3rem solid #000;
+    background: rgb(43, 39, 39);
+    color: white;
+    border-radius: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+    padding: 1rem 1rem;
+    cursor: pointer;
+}
+
+#display {
+    display: flex;
+    background: #000;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    margin: 1rem 7rem 1rem 7rem;
+    padding: 0.5;
+}
+
+#project-title {
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.active {
+    transform: scale(0.95);
+    background: rgba(173, 216, 20, 0.767);
+    opacity: 0.8;
+}
+

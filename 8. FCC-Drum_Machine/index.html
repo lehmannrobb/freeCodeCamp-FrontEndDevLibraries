@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+    <link rel="stylesheet" href="./style.css"/>
+    <title>Drum Machine</title>
+</head>
+<body>
+
+    <!-- Drum Machine -->
+    <div id="drum-machine">
+        <div class="container">
+            <div class="drum-pad" id="Q">
+                <p>Q</p>
+                <audio id="Q" class="clip" src="https://s3.amazonaws.com/freecodecamp/drums/Heater-1.mp3"></audio>
+            </div>
+            <div class="drum-pad" id="W">
+                <p>W</p>
+                <audio id="W" class="clip" src="https://s3.amazonaws.com/freecodecamp/drums/Heater-2.mp3"></audio>
+            </div>
+            <div class="drum-pad" id="E">
+                <p>E</p>
+                <audio id="E" class="clip" src="https://s3.amazonaws.com/freecodecamp/drums/Heater-3.mp3"></audio>
+            </div>
+            <div class="drum-pad" id="A">
+                <p>A</p>
+                <audio id="A" class="clip" src="https://s3.amazonaws.com/freecodecamp/drums/Heater-4_1.mp3"></audio>
+            </div>
+            <div class="drum-pad" id="S">
+                <p>S</p>
+                <audio id="S" class="clip" src="https://s3.amazonaws.com/freecodecamp/drums/Heater-6.mp3"></audio>
+            </div>
+            <div class="drum-pad" id="D">
+                <p>D</p>
+                <audio id="D" class="clip" src="https://s3.amazonaws.com/freecodecamp/drums/Dsc_Oh.mp3"></audio>
+            </div>
+            <div class="drum-pad" id="Z">
+                <p>Z</p>
+                <audio id="Z" class="clip" src="https://s3.amazonaws.com/freecodecamp/drums/Kick_n_Hat.mp3"></audio>
+            </div>
+            <div class="drum-pad" id="X">
+                <p>X</p>
+                <audio id="X" class="clip" src="https://s3.amazonaws.com/freecodecamp/drums/RP4_KICK_1.mp3"></audio>
+            </div>
+            <div class="drum-pad" id="C">
+                <p>C</p>
+                <audio id="C" class="clip" src="https://s3.amazonaws.com/freecodecamp/drums/Cev_H2.mp3"></audio>
+            </div>
+        </div>
+
+        <!-- Display -->
+        <div class="text-center" id="display">
+            <h4>Press a Key</h4>
+        </div>
+
+        <!-- Project Title -->
+        <div id="project-title">
+            <h3>Drum Machine - <i class="fab fa-free-code-camp"></i> fCC</h3>
+        </div>
+
+    </div>
+
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <script src="./app.js"></script>
+</body>
+</html>
